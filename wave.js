@@ -9,7 +9,7 @@ const Oscillator = function (img) {
 
     this.angle = createVector();
     this.velocity = createVector(this._getRandVector(), this._getRandVector());
-    this.amplitude = createVector(random(20, width / 2), random(20, height / 2));
+    this.amplitude = createVector(random(20, width / 2), random(30, height / 3));
 
     let count = 0;
 
